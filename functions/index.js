@@ -6,7 +6,9 @@ const functions = require('firebase-functions');
 module.exports = function(app) {
 
      this.helloWorld = functions.https.onRequest((request, response) => {
-          response.send("Hello from Firebase!");
+          response.send({
+               speech: "Hello from Firebase!"
+          });
          });
      // Other route groups could go here, in the future
 };
