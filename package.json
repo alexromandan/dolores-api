@@ -4,13 +4,7 @@
   "description": "API for Dialogflow Fulfillment Webhook",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon server.js",
-    "lint": "eslint .",
-    "serve": "firebase serve --only functions",
-    "shell": "firebase functions:shell",
-    "start": "npm run shell",
-    "deploy": "firebase deploy --only functions",
-    "logs": "firebase functions:log"
+    "dev": "nodemon server.js"
   },
   "repository": {
     "type": "git",
