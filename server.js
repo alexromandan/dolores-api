@@ -6,7 +6,6 @@ const app            = express();
 const port = 8000;
 
 require('./app/routes')(app, {});
-require('./functions/')(app, {});
 
 app.listen((process.env.PORT || port), () => {
   console.log('We are live on ' + port);
